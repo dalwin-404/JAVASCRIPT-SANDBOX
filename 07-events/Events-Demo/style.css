@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  margin: 20px;
+  text-align: center;
+  line-height: 200px;
+}
+.hidden {
+  display: none;
+}
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}

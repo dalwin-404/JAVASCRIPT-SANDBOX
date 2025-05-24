@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Event Examples</h2>
+
+    <!-- Submit Event -->
+    <form id="eventForm">
+        <input type="text" id="formInput" placeholder="Type and submit" required />
+        <button type="submit">Submit</button>
+    </form>
+    <p id="formOutput"></p>
+
+    <!-- Click Event -->
+    <button id="clickBtn">Click Me</button>
+    <p id="clickOutput"></p>
+
+    <!-- Double Click Event -->
+    <div id="dblClickBox" class="box">Double-click Me</div>
+
+    <!-- Mouse Events -->
+    <div id="mouseBox" class="box">Hover or Leave</div>
+
+    <!-- Keyboard Events -->
+    <input type="text" id="keyboardInput" placeholder="Type something..." />
+    <p id="keyboardOutput"></p>
+
+    <!-- Blur Event -->
+    <input type="text" id="blurInput" placeholder="Blur me" />
+    <p id="blurOutput"></p>
+
+    <!-- Custom Event -->
+    <button id="triggerCustom">Trigger Custom Event</button>
+    <p id="customOutput"></p>
+
+    <!-- stopPropagation Example -->
+    <div id="outerBox" class="box" style="background: lightgreen;">
+        Outer Box
+        <button id="innerBtn">Inner Button</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
